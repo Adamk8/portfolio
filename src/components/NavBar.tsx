@@ -28,7 +28,7 @@ const NavButton = ({ title, link }: NavOptions) => {
 
 export const NavBar = () => {
   return (
-    <Flex backgroundColor="blackAlpha.400" w="100%" px={1} >
+    <Flex backgroundColor="gray.900" w="100%" px={1} >
       <Grid
         templateRows="repeat(1, 1fr)"
         templateColumns="repeat(3, 1fr)"
