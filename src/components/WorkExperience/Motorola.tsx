@@ -18,7 +18,7 @@ export const Motorola = () => {
         w="60%"
         style={{ backgroundImage: `url(${msImage})`}}
       ></Flex>
-      <Flex w="40%" textAlign="center" bg="blackAlpha.600">
+      <Flex w="40%" textAlign="center" bg="gray.900">
         <Container fontWeight='light'>
           <Grid
             templateRows="repeat(3, 1fr)"

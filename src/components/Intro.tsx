@@ -34,7 +34,7 @@ export const Intro = () => {
       >
         <GridItem>
           <Heading m={10} size="4xl" fontWeight="light">
-            Welcome My Portfolio!
+            Welcome to My Portfolio!
           </Heading>
         </GridItem>
         <GridItem>
