@@ -24,7 +24,7 @@ export const Intro = () => {
   return (
     <Flex
       w="100%"
-      h="93vh"
+      h="92vh"
       style={{ backgroundImage: `url(${victoria})` }}
       justifyContent="center"
     >

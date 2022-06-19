@@ -19,16 +19,21 @@ export const Home = () => {
       <Flex>
         <Intro />
       </Flex>
-      <Flex style={{ position: "sticky", top: 0 }}>
+      <Flex style={{ position: "sticky", top: 0, zIndex: 1 }}>
         <NavBar />
       </Flex>
-      <Flex data-aos="fade-up" data-aos-duration="2000">
+      <Flex data-aos="fade-up" id="about">
         <About />
       </Flex>
-      <Flex data-aos="fade-up" data-aos-duration="2000">
-        <Motorola />
-      </Flex>
-      <Flex data-aos="fade-up" data-aos-duration="2000">
+      <div data-aos="fade-up" id="experience">
+        <Flex>
+          <ExperienceHeader />
+        </Flex>
+        <Flex>
+          <Motorola />
+        </Flex>
+      </div>
+      <Flex data-aos="fade-up" id="projects">
         <ProjectsHeader />
       </Flex>
     </>
