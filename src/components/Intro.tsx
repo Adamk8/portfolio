@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import portait from "../images/portrait.jpg";
-import victoria from "../images/Victoria.jpg"
+import victoria from "../images/Victoria.jpg";
 
 export const Intro = () => {
   const openGithub = () => {
@@ -22,18 +22,23 @@ export const Intro = () => {
   };
 
   return (
-    <Flex w="full" style={{ backgroundImage: `url(${victoria})`}} justifyContent="center">
+    <Flex
+      w="100%"
+      h="93vh"
+      style={{ backgroundImage: `url(${victoria})` }}
+      justifyContent="center"
+    >
       <Grid
         justifyContent="center"
         textAlign="center"
-        gap={5}
-        m={10}
+        gap={3}
+        m={16}
         bg="gray.900"
         p={8}
         borderRadius={50}
       >
         <GridItem>
-          <Heading m={10} size="4xl" fontWeight="light">
+          <Heading m={10} mb={2} size="4xl" fontWeight="light">
             Welcome to My Portfolio!
           </Heading>
         </GridItem>
@@ -48,6 +53,9 @@ export const Intro = () => {
           </Flex>
           <Heading mt={5} size="2xl" fontWeight="light">
             Adam Kwan
+          </Heading>
+          <Heading mt={5} size="lg" fontWeight="light">
+            Software Engineering Student
           </Heading>
         </GridItem>
         <GridItem>
