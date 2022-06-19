@@ -1,4 +1,4 @@
-import msImage from "../../images/motorla.jpg";
+import sgImage from "../../images/suregrip.jpg";
 import {
   Divider,
   Flex,
@@ -12,10 +12,11 @@ import {
 import { Image } from "@chakra-ui/react";
 import {
   motorolaIntro,
-  motorolaResponsiblityList,
+  suregripIntro,
+  suregripResponsiblityList,
 } from "../../stores/descriptions";
 
-export const Motorola = () => {
+export const SureGripControls = () => {
   return (
     <Flex w="full" textAlign="center" bg="gray.900" fontWeight="light" p={20}>
       <Grid
@@ -24,19 +25,25 @@ export const Motorola = () => {
         gap={20}
       >
         <GridItem>
+          <Image
+            ml="15%"
+            boxSize="400px"
+            borderRadius={20}
+            src={sgImage}
+            boxShadow="dark-lg"
+          />
+        </GridItem>
+        <GridItem>
           <Heading fontWeight="light" textAlign="center" fontSize={30}>
-            Systems Engeering Co-op at Motorola Solutions
+            Full Stack Developer Co-op at Sure Grip Controls
           </Heading>
           <Heading fontWeight="light" textAlign="center" mb={2} fontSize={20}>
             Sept 2019 - Apr 2020
           </Heading>
           <Divider orientation="horizontal" mb={2} />
           <Text fontWeight="light" textAlign="left" fontSize={18}>
-            {motorolaIntro}
+            {suregripIntro}
           </Text>
-        </GridItem>
-        <GridItem>
-          <Image borderRadius={30} src={msImage} boxShadow="dark-lg" />
         </GridItem>
         <GridItem>
           <Heading fontWeight="light" textAlign="center" mb={2} fontSize={20}>
@@ -44,7 +51,7 @@ export const Motorola = () => {
           </Heading>
           <Divider orientation="horizontal" mb={2} />
           <UnorderedList fontSize={18} textAlign="left">
-            {motorolaResponsiblityList.map((item) => (
+            {suregripResponsiblityList.map((item) => (
               <ListItem>{item}</ListItem>
             ))}
           </UnorderedList>

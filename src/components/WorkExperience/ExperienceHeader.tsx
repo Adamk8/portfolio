@@ -8,6 +8,7 @@ export const ExperienceHeader = () => {
       bg="gray.900"
       textAlign="center"
       justifyContent="center"
+      borderTopRadius={50}
     >
       <Grid templateColumns="repeat(1, 1fr)" gap={1}>
         <GridItem>

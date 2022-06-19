@@ -3,7 +3,7 @@ import { aboutMe } from "../stores/descriptions";
 
 export const About = () => {
   return (
-    <Flex w="full" h="400px" padding={20} bg="gray.800">
+    <Flex w="full" h="400px" p={20} bg="gray.900" borderRadius={50}>
       <Grid
         templateColumns="repeat(5, 1fr)"
         templateRows="repeat(1, 1fr)"
