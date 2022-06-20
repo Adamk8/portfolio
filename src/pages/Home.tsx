@@ -17,7 +17,7 @@ export const Home = () => {
     AOS.refresh();
   }, []);
   return (
-    <>
+    <div style={{ backgroundColor: "#121212" }}>
       <Flex>
         <Intro />
       </Flex>
@@ -44,6 +44,6 @@ export const Home = () => {
       <Flex data-aos="fade-up" id="projects">
         <ProjectsHeader />
       </Flex>
-    </>
+    </div>
   );
 };

@@ -9,13 +9,10 @@ import {
   UnorderedList,
   ListItem,
 } from "@chakra-ui/layout";
-import { Container, Image } from "@chakra-ui/react";
-import { ReadMore } from "../ReadMore";
+import { Image } from "@chakra-ui/react";
 import {
   crescentpointIntro,
-  crescentporintResponsiblityList,
-  motorolaIntro,
-  suregripResponsiblityList,
+  crescentpointResponsiblityList,
 } from "../../stores/descriptions";
 
 export const CrescentPoint = () => {
@@ -23,7 +20,7 @@ export const CrescentPoint = () => {
     <Flex
       w="full"
       textAlign="center"
-      bg="gray.900"
+      bg="#202020"
       fontWeight="light"
       p={20}
       borderBottomRadius={50}
@@ -34,11 +31,11 @@ export const CrescentPoint = () => {
         gap={20}
       >
         <GridItem>
-          <Heading fontWeight="light" textAlign="center" fontSize={30}>
-            Full Stack Developer Co-op at Sure Grip Controls
+          <Heading fontWeight="light" textAlign="center" fontSize={25} mb={2}>
+            System Administrator at Crescent Point Energy
           </Heading>
           <Heading fontWeight="light" textAlign="center" mb={2} fontSize={20}>
-            Sept 2019 - Apr 2020
+            May 2018 - Aug 2018
           </Heading>
           <Divider orientation="horizontal" mb={2} />
           <Text fontWeight="light" textAlign="left" fontSize={18}>
@@ -51,8 +48,8 @@ export const CrescentPoint = () => {
           </Heading>
           <Divider orientation="horizontal" mb={2} />
           <UnorderedList fontSize={18} textAlign="left">
-            {crescentporintResponsiblityList.map((item) => (
-              <ListItem>{item}</ListItem>
+            {crescentpointResponsiblityList.map((item, index) => (
+              <ListItem key={"cp-" + index}>{item}</ListItem>
             ))}
           </UnorderedList>
         </GridItem>

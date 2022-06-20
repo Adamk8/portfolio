@@ -18,15 +18,15 @@ import {
 
 export const SureGripControls = () => {
   return (
-    <Flex w="full" textAlign="center" bg="gray.900" fontWeight="light" p={20}>
+    <Flex w="full" textAlign="center" bg="#202020" fontWeight="light" p={20}>
       <Grid
         templateRows="repeat(1, 1fr)"
         templateColumns="repeat(3, 1fr)"
         gap={20}
       >
-        <GridItem>
+        <GridItem justifyContent="center">
           <Image
-            ml="15%"
+            ml="10%"
             boxSize="400px"
             borderRadius={20}
             src={sgImage}
@@ -34,11 +34,11 @@ export const SureGripControls = () => {
           />
         </GridItem>
         <GridItem>
-          <Heading fontWeight="light" textAlign="center" fontSize={30}>
+          <Heading fontWeight="light" textAlign="center" fontSize={25} mb={2}>
             Full Stack Developer Co-op at Sure Grip Controls
           </Heading>
           <Heading fontWeight="light" textAlign="center" mb={2} fontSize={20}>
-            Sept 2019 - Apr 2020
+            May 2021 - Apr 2022
           </Heading>
           <Divider orientation="horizontal" mb={2} />
           <Text fontWeight="light" textAlign="left" fontSize={18}>
@@ -51,8 +51,8 @@ export const SureGripControls = () => {
           </Heading>
           <Divider orientation="horizontal" mb={2} />
           <UnorderedList fontSize={18} textAlign="left">
-            {suregripResponsiblityList.map((item) => (
-              <ListItem>{item}</ListItem>
+            {suregripResponsiblityList.map((item, index) => (
+              <ListItem key={"sg-" + index}>{item}</ListItem>
             ))}
           </UnorderedList>
         </GridItem>

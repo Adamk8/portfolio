@@ -24,7 +24,7 @@ export const Intro = () => {
   return (
     <Flex
       w="100%"
-      h="92vh"
+      h="93vh"
       style={{ backgroundImage: `url(${victoria})` }}
       justifyContent="center"
     >
@@ -33,7 +33,7 @@ export const Intro = () => {
         textAlign="center"
         gap={3}
         m={16}
-        bg="gray.900"
+        bg="#202020"
         p={8}
         borderRadius={50}
       >
@@ -66,7 +66,7 @@ export const Intro = () => {
         </GridItem>
         <GridItem>
           <Button
-            bg="blackAlpha.900"
+            bg="#202020"
             leftIcon={<FaGithub />}
             w="150px"
             onClick={openGithub}

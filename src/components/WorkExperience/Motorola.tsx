@@ -17,14 +17,14 @@ import {
 
 export const Motorola = () => {
   return (
-    <Flex w="full" textAlign="center" bg="gray.900" fontWeight="light" p={20}>
+    <Flex w="full" textAlign="center" bg="#202020" fontWeight="light" p={20}>
       <Grid
         templateRows="repeat(1, 1fr)"
         templateColumns="repeat(3, 1fr)"
         gap={20}
       >
         <GridItem>
-          <Heading fontWeight="light" textAlign="center" fontSize={30}>
+          <Heading fontWeight="light" textAlign="center" fontSize={25} mb={2}>
             Systems Engeering Co-op at Motorola Solutions
           </Heading>
           <Heading fontWeight="light" textAlign="center" mb={2} fontSize={20}>
@@ -44,8 +44,8 @@ export const Motorola = () => {
           </Heading>
           <Divider orientation="horizontal" mb={2} />
           <UnorderedList fontSize={18} textAlign="left">
-            {motorolaResponsiblityList.map((item) => (
-              <ListItem>{item}</ListItem>
+            {motorolaResponsiblityList.map((item, index) => (
+              <ListItem key={"ms-" + index}>{item}</ListItem>
             ))}
           </UnorderedList>
         </GridItem>

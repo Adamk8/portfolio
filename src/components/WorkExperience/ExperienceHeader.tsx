@@ -4,8 +4,8 @@ export const ExperienceHeader = () => {
   return (
     <Flex
       w="full"
-      padding={5}
-      bg="gray.900"
+      pt={10}
+      bg="#202020"
       textAlign="center"
       justifyContent="center"
       borderTopRadius={50}
