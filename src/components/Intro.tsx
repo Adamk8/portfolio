@@ -66,7 +66,7 @@ export const Intro = () => {
         </GridItem>
         <GridItem>
           <Button
-            bg="#202020"
+            bg="black"
             leftIcon={<FaGithub />}
             w="150px"
             onClick={openGithub}

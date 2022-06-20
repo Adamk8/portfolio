@@ -14,7 +14,7 @@ const NavButton = ({ title, link }: NavOptions) => {
       }}
       fontFamily="Helvetica, sans-serif"
       justifyContent="center"
-      onClick={() => window.location.replace(`/#${link}`)}
+      onClick={() => window.location.replace(`#${link}`)}
       borderBottomColor="white"
       borderBottomWidth="2px"
       borderTopColor="white"

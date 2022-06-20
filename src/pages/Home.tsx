@@ -17,7 +17,7 @@ export const Home = () => {
     AOS.refresh();
   }, []);
   return (
-    <div style={{ backgroundColor: "#121212" }}>
+    <div style={{ backgroundColor: "#121212", color: "white" }}>
       <Flex>
         <Intro />
       </Flex>
