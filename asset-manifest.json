@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc0706bd.css",
-    "main.js": "/static/js/main.f3ede6a0.js",
-    "static/js/377.2bf5b29e.chunk.js": "/static/js/377.2bf5b29e.chunk.js",
-    "static/media/Victoria.jpg": "/static/media/Victoria.6371f640342539644174.jpg",
-    "static/media/portrait.jpg": "/static/media/portrait.c47d1ca995285992db3c.jpg",
-    "static/media/motorla.jpg": "/static/media/motorla.fbf7409863df33bc391e.jpg",
-    "static/media/crescentpoint.jpg": "/static/media/crescentpoint.6815ae08af419f803afe.jpg",
-    "static/media/suregrip.jpg": "/static/media/suregrip.e478e1f33996336b65e9.jpg",
-    "index.html": "/index.html",
-    "main.fc0706bd.css.map": "/static/css/main.fc0706bd.css.map",
-    "main.f3ede6a0.js.map": "/static/js/main.f3ede6a0.js.map",
-    "377.2bf5b29e.chunk.js.map": "/static/js/377.2bf5b29e.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.fc0706bd.css",
+    "main.js": "/portfolio/static/js/main.3ff7c934.js",
+    "static/js/377.2bf5b29e.chunk.js": "/portfolio/static/js/377.2bf5b29e.chunk.js",
+    "static/media/Victoria.jpg": "/portfolio/static/media/Victoria.6371f640342539644174.jpg",
+    "static/media/portrait.jpg": "/portfolio/static/media/portrait.c47d1ca995285992db3c.jpg",
+    "static/media/motorla.jpg": "/portfolio/static/media/motorla.fbf7409863df33bc391e.jpg",
+    "static/media/crescentpoint.jpg": "/portfolio/static/media/crescentpoint.6815ae08af419f803afe.jpg",
+    "static/media/suregrip.jpg": "/portfolio/static/media/suregrip.e478e1f33996336b65e9.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.fc0706bd.css.map": "/portfolio/static/css/main.fc0706bd.css.map",
+    "main.3ff7c934.js.map": "/portfolio/static/js/main.3ff7c934.js.map",
+    "377.2bf5b29e.chunk.js.map": "/portfolio/static/js/377.2bf5b29e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc0706bd.css",
-    "static/js/main.f3ede6a0.js"
+    "static/js/main.3ff7c934.js"
   ]
 }
