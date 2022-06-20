@@ -1,4 +1,3 @@
-import { Button } from "@chakra-ui/button";
 import { Grid, GridItem, Flex, Heading } from "@chakra-ui/layout";
 
 interface NavOptions {

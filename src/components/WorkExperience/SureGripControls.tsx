@@ -11,7 +11,6 @@ import {
 } from "@chakra-ui/layout";
 import { Image } from "@chakra-ui/react";
 import {
-  motorolaIntro,
   suregripIntro,
   suregripResponsiblityList,
 } from "../../stores/descriptions";
