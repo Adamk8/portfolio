@@ -62,3 +62,34 @@ export const crescentpointResponsiblityList = [
   "Planned and helped upgrade 1000+ computers over 4 months",
   "Analyzed user info to make sure the OS upgrade process met the needs of each user",
 ];
+
+export const schedulingDescription = `This project was during my capstone class, the goal of the project was to create a system that schedules courses for the 
+university. The project was divided into four parts: frontend, backend, algorithm 1, and algorithm 2. Each team consisted of 20 people and spilt into 4 subgroups for
+each part of the project. I was on the frontend team which gave me a chance to improve my UI/UX design skills along with introducing me to using a GraphQL API. On the
+frontend team I was the scrum master which gave me a chance to practice my leadership and organizational skills. This was a good exercise in teamwork and communication 
+as a team of 20 had to come up with a modular product in 4 month without having any previous work experience together. During
+this project I appreciated the code reviews from my peers which I believe have helped me become a better software engineer. This was also my first time switching from 
+JavaScript to TypeScript and I found that I like features of TypeScript and I believe it increased the quality of the code I wrote.`;
+
+export const schedulingTakeaways = [
+  "Experience with React in TypeScript",
+  "Experience work with a GraphQL API",
+  "Experience Deploying Docker to Heroku",
+  "Leading stand ups, sprint plannings, sprint retrospectives",
+  "Cross Team Communication",
+];
+
+export const scalabilityDescription = `For my 'Software Scalability course I worked in a group to create a mock day trading system web application. The goal of 
+this system was to be a scalable system to handle large workloads. This project was developed in a team of 4, my role in the team was to implement half of the 
+backend routes for the REST API, create the load testing python script, create the login page, and setup/manage some of the AWS components. What I learned about most in this project
+was the AWS components and how to deploy with AWS. I really enjoyed this because I had never had the chance to use a cloud deployment system and it was interesting 
+to see the advantages and challenges it has.
+`;
+
+export const scalabilityTakeaways = [
+  "Experience making an express NodeJS REST API",
+  "More Experience with ReactJS",
+  "Experience writing PostgreSQL queries",
+  "Experience writhing a load testing script in Python",
+  "Experience with AWS services: ECR, Lambda, Secrets Manager, S3 Bucket, EC2 Instances, VPC",
+];

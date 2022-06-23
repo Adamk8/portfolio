@@ -10,6 +10,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { SureGripControls } from "../components/WorkExperience/SureGripControls";
 import { CrescentPoint } from "../components/WorkExperience/CrescentPoint";
+import { ScalabilityProject } from "../components/Projects/ScalabilityProject";
+import { SchedulingProject } from "../components/Projects/ScheudlingProject";
 
 export const Home = () => {
   useEffect(() => {
@@ -41,9 +43,17 @@ export const Home = () => {
           <CrescentPoint />
         </Flex>
       </div>
-      <Flex data-aos="fade-up" id="projects">
-        <ProjectsHeader />
-      </Flex>
+      <div data-aos="fade-up" id="projects" style={{ padding: "80px" }}>
+        <Flex>
+          <ProjectsHeader />
+        </Flex>
+        <Flex>
+          <SchedulingProject />
+        </Flex>
+        <Flex>
+          <ScalabilityProject />
+        </Flex>
+      </div>
     </div>
   );
 };
